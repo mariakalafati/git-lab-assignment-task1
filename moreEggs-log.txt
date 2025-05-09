@@ -1,0 +1,4 @@
+61fd26b Changed gradient from rainbow to blue-orange
+dcfbc39 Added more eggs with various colors
+c00f7ca Changed egg color to dark red
+ebf21f8 Initial commit
