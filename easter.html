@@ -13,6 +13,11 @@
     <div class="egg" onclick="document.getElementById('secretBunny').style.display='block'"></div>
     <div class="egg" onclick="this.style.background='rainbow'"></div>
 
+    <!-- Additional eggs -->
+    <div class="egg" style="background: blue;" onclick="alert('You found a blue egg! 🥚')"></div>
+    <div class="egg" style="background: green;" onclick="alert('Green egg unlocked! 🌿')"></div>
+    <div class="egg" style="background: purple;" onclick="alert('Mystery egg discovered! 🔮')"></div>
+
     <p class="hidden-basket">🧺 Secret Easter Basket Found! 🧺</p>
     
     <div id="secretBunny">🐰</div>
@@ -22,8 +27,8 @@
         let keys = [];
         document.addEventListener('keydown', (e) => {
             keys.push(e.key);
-            if (keys.join(',').includes('ArrowUp,ArrowUp,t,t,ArrowUp,ArrowUp,ArrowLeft,ArrowRight,s,r,r')) {
-                document.body.style.background = 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)';
+            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
+                document.body.style.background = 'linear-gradient(to right, blue, orange)';
             }
         });
     </script>
