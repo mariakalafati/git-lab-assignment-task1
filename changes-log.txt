@@ -1,0 +1,8 @@
+ddd7d91 Three changes
+bbe7ba9 Resolved gradient conflict during merge
+61fd26b Changed gradient from rainbow to blue-orange
+dcfbc39 Added more eggs with various colors
+e3d2b94 Changed keybind to Mega Jump cheat
+f0d5487 Updated rainbow theme to left-to-right gradient
+c00f7ca Changed egg color to dark red
+ebf21f8 Initial commit
